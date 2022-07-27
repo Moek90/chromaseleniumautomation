@@ -1,0 +1,19 @@
+----- LOCATOR NOTES-----
+
+
+- Currently as of June, 2022 Selenium WebDriver offers 8 different way to locate
+web page elements (HTML elements)
+
+- In order to perform any action on an element, such as sending text, clicking, etc
+we need to locate an element to interest with 
+
+- A locator can also be referenced as the address to an element
+ LOCATORS:
+ 1. className - will not work if the attribute value has spaces (compund class)
+ 2. cssSelector
+ 3. ID
+ 4. linkText - uou need the ENTIRE text of the link  
+ 5. name 
+ 6. partiaLinkText - you only need a part of the link text 
+ 7. tagName
+ 8. xpath
